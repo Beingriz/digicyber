@@ -1,0 +1,5 @@
+UPDATE `digital_cyber_db` SET `Application`='Aadhaar Card',`Application_Type`='Name Correction' WHERE `Application`='Aadhaar Name Update';
+
+SELECT `Received_Date`, `Name`, `Application`, `Application_Type` FROM `digital_cyber_db` WHERE `Application`='Aadhar Card' && `Status`='Received';
+
+UPDATE `digital_cyber_db` SET `Application`='Aadhar Card',`Application_Type`='Address Correction' WHERE `Application_Type`='Address Correction';
