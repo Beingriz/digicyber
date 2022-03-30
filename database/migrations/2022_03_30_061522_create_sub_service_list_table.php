@@ -14,7 +14,7 @@ class CreateSubServiceListTable extends Migration
     public function up()
     {
         Schema::create('sub_service_list', function (Blueprint $table) {
-            $table->integer('Sl_No', true)->unique('Sl_No');
+            $table->integer('Sl_No',  50);
             $table->string('Service_Id', 50);
             $table->string('Id', 50)->primary();
             $table->string('Name', 250);
