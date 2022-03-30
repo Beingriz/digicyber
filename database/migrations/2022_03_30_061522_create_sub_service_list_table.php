@@ -16,7 +16,7 @@ class CreateSubServiceListTable extends Migration
         Schema::create('sub_service_list', function (Blueprint $table) {
             $table->integer('Sl_No',  50);
             $table->string('Service_Id', 50);
-            $table->string('Id', 50)->primary();
+            $table->string('Id', 50);
             $table->string('Name', 250);
             $table->string('Service_Type', 50)->nullable();
             $table->string('Description', 200)->nullable();
