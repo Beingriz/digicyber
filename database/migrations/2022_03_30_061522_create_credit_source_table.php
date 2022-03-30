@@ -15,7 +15,7 @@ class CreateCreditSourceTable extends Migration
     {
         Schema::create('credit_source', function (Blueprint $table) {
             $table->integer('Sl_No', 50);
-            $table->string('Id', 50)->primary();
+            $table->string('Id', 50);
             $table->string('Name', 100);
             $table->string('Thumbnail', 250);
             $table->timestamp('updated_at')->useCurrentOnUpdate()->useCurrent();
