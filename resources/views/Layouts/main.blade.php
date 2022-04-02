@@ -11,12 +11,12 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
     <!-- Bootstrap core CSS -->
-    <link href=" 'https://mycafee.herokuapp.com/public/Bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../public/Bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!-- Material Design Bootstrap -->
-    <link href="https://mycafee.herokuapp.com/public/Bootstrap/css/mdb.min.css" rel="stylesheet">
+    <link href="../public/Bootstrap/css/mdb.min.css" rel="stylesheet">
     <!-- Your custom styles (optional) -->
-    <link href="https://mycafee.herokuapp.com/public/Bootstrap/css/style.css" rel="stylesheet">
-    <link href="https://mycafee.herokuapp.com/public/Bootstrap/css/600.css" rel="stylesheet">
+    <link href="../public/Bootstrap/css/style.css" rel="stylesheet">
+    <link href="../public/Bootstrap/css/600.css" rel="stylesheet">
     @livewireStyles
 </head>
 
