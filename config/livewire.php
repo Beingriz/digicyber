@@ -42,7 +42,7 @@ return [
     |
     */
 
-    'asset_url'  => env('APP_URL', null), // really should be env('LIVEWIRE_ASSET_URL', null), //
+    'asset_url'  => 'http://localhost/cyber/public', // really should be env('LIVEWIRE_ASSET_URL', null), //
 
     /*
     |--------------------------------------------------------------------------
