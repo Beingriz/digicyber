@@ -15,7 +15,7 @@ class CreateSlideBarImagesTable extends Migration
     {
         Schema::create('slide_bar_images', function (Blueprint $table) {
             $table->integer('sl_no', true);
-            $table->string('add_id', 250)->unique('add_id');
+            $table->string('add_id', 250);
             $table->string('image_name', 100);
             $table->string('image_path', 500);
         });

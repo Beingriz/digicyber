@@ -15,7 +15,7 @@ class CreateImaClaimTable extends Migration
     {
         Schema::create('ima_claim', function (Blueprint $table) {
             $table->integer('sl_no', true);
-            $table->string('customer_id', 100)->unique('customer_id');
+            $table->string('customer_id', 100);
             $table->string('scheme', 50);
             $table->date('received_date');
             $table->string('customer_name', 200);

@@ -14,7 +14,7 @@ class CreateDigitalCyberDbTable extends Migration
     public function up()
     {
         Schema::create('digital_cyber_db', function (Blueprint $table) {
-            $table->string('Id', 250)->unique('customer_id');
+            $table->string('Id', 250);
             $table->string('Client_Id', 50);
             $table->date('Received_Date');
             $table->string('Name', 200);

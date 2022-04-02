@@ -15,7 +15,7 @@ class CreatePanCardTable extends Migration
     {
         Schema::create('pan_card', function (Blueprint $table) {
             $table->integer('sl_no', true);
-            $table->string('Id', 100)->unique('customer_id');
+            $table->string('Id', 100);
             $table->string('Application_Type', 50);
             $table->date('Received_Date');
             $table->string('Name', 250);

@@ -15,7 +15,7 @@ class CreateVoteridCardTable extends Migration
     {
         Schema::create('voterid_card', function (Blueprint $table) {
             $table->integer('sl_no', true);
-            $table->string('customer_id', 250)->unique('customer_id');
+            $table->string('customer_id', 250);
             $table->string('customer_name', 100);
             $table->string('relation_name', 100);
             $table->string('mobile_no', 200);
