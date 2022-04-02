@@ -14,7 +14,7 @@ class CreateDocumentListTable extends Migration
     public function up()
     {
         Schema::create('document_list', function (Blueprint $table) {
-            $table->integer('Sl_No', true)->unique('Sl_No');
+            $table->integer('Sl_No',50);
             $table->string('Id', 50)->primary();
             $table->string('Service_Id', 50);
             $table->string('Sub_Service_Id', 50);
