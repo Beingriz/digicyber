@@ -13,10 +13,10 @@
     <!-- Bootstrap core CSS -->
     <link href=" {{ URL::asset('/public/Bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
     <!-- Material Design Bootstrap -->
-    <link href="{{ URL::asset('/public/Bootstrap/css/mdb.min.css') }}" rel="stylesheet">
+    <link href="{{ URL::asset('public/Bootstrap/css/mdb.min.css') }}" rel="stylesheet">
     <!-- Your custom styles (optional) -->
-    <link href="{{ URL::asset('/public/Bootstrap/css/style.css') }}" rel="stylesheet">
-    <link href="{{ URL::asset('/public/Bootstrap/css/600.css') }}" rel="stylesheet">
+    <link href="{{ URL::asset('public/Bootstrap/css/style.css') }}" rel="stylesheet">
+    <link href="{{ URL::asset('public/Bootstrap/css/600.css') }}" rel="stylesheet">
     @livewireStyles
 </head>
 
