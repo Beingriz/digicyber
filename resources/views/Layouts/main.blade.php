@@ -11,12 +11,12 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
     <!-- Bootstrap core CSS -->
-    <link href=" {{ URL::asset('/public/Bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href=" {{ asset('/public/Bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
     <!-- Material Design Bootstrap -->
-    <link href="{{ URL::asset('public/Bootstrap/css/mdb.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('public/Bootstrap/css/mdb.min.css') }}" rel="stylesheet">
     <!-- Your custom styles (optional) -->
-    <link href="{{ URL::asset('public/Bootstrap/css/style.css') }}" rel="stylesheet">
-    <link href="{{ URL::asset('public/Bootstrap/css/600.css') }}" rel="stylesheet">
+    <link href="{{ asset('/public/Bootstrap/css/style.css') }}" rel="stylesheet">
+    <link href="{{ asset('public/Bootstrap/css/600.css') }}" rel="stylesheet">
     @livewireStyles
 </head>
 
@@ -31,18 +31,18 @@
 
 {{-- Script Tag Starts From Here  --}}
    @livewireScripts
-    <script src="{{ URL::asset('public/Bootstrap/js/jquery-3.4.1.min.js') }}">
+    <script src="{{ asset('public/Bootstrap/js/jquery-3.4.1.min.js') }}">
     </script>
     <!-- Bootstrap tooltips -->
-    <script src="{{ URL::asset('/public/Bootstrap/js/popper.min.js') }}">
+    <script src="{{ asset('/public/Bootstrap/js/popper.min.js') }}">
     </script>
     <!-- Bootstrap core JavaScript -->
-    <script src="{{ URL::asset('/public/Bootstrap/js/bootstrap.min.js') }}">
+    <script src="{{ asset('/public/Bootstrap/js/bootstrap.min.js') }}">
     </script>
     <!-- MDB core JavaScript -->
-    <script src="{{ URL::asset('/public/Bootstrap/js/mdb.min.js') }}">
+    <script src="{{ asset('/public/Bootstrap/js/mdb.min.js') }}">
     </script>
-    <script src="{{ URL::asset('/public/Bootstrap/js/js/js.js') }}">
+    <script src="{{ asset('/public/Bootstrap/js/js/js.js') }}">
     </script>
     <script src="{{ URL::asset('/public/Bootstrap/js/js/javascript.js') }}">
     </script>
