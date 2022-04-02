@@ -15,7 +15,7 @@ class CreateDocumentListTable extends Migration
     {
         Schema::create('document_list', function (Blueprint $table) {
             $table->integer('Sl_No',50);
-            $table->string('Id', 50)->primary();
+            $table->string('Id', 50);
             $table->string('Service_Id', 50);
             $table->string('Sub_Service_Id', 50);
             $table->string('Name', 50);

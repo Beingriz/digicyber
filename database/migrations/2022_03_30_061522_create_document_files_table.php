@@ -14,7 +14,7 @@ class CreateDocumentFilesTable extends Migration
     public function up()
     {
         Schema::create('document_files', function (Blueprint $table) {
-            $table->string('Id', 200)->primary();
+            $table->string('Id', 200);
             $table->string('App_Id', 200);
             $table->string('Client_Id', 200);
             $table->string('Document_Name', 200);

@@ -14,7 +14,7 @@ class CreateDebitSourcesTable extends Migration
     public function up()
     {
         Schema::create('debit_sources', function (Blueprint $table) {
-            $table->string('Id', 100)->primary();
+            $table->string('Id', 100);
             $table->string('DS_Id', 50);
             $table->string('DS_Name', 100);
             $table->string('Source', 200);

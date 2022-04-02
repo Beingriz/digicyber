@@ -15,7 +15,7 @@ class CreateDebitSourceTable extends Migration
     {
         Schema::create('debit_source', function (Blueprint $table) {
             $table->integer('Sl_No',50);
-            $table->string('Id', 50)->primary();
+            $table->string('Id', 50);
             $table->string('Name', 100);
             $table->string('Tumbanil', 200);
             $table->timestamp('updated_at')->useCurrent();

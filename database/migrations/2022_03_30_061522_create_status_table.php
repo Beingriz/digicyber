@@ -14,7 +14,7 @@ class CreateStatusTable extends Migration
     public function up()
     {
         Schema::create('status', function (Blueprint $table) {
-            $table->string('ST_Id', 100)->primary();
+            $table->string('ST_Id', 100);
             $table->string('Orderby', 50);
             $table->string('Status', 100);
             $table->integer('Total_Count')->default(0);
